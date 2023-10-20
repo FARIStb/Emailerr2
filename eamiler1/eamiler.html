@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emailer</title>
+
+    <style>.container {
+        width: 600px;
+        margin: auto;
+        /* border: 2px solid red; */
+        background-color: black;
+        text-align: center; /* Center-align the images within the container */
+    }
+
+    .imagpe {
+        max-width: 100%; /* Make sure images don't exceed the container width */
+        margin-top: -8px; /* Add some top margin to space them out */
+    }
+
+    .demo {
+        width: 100%;
+        background-color: red;
+        margin-top: 10px; /* Adjust margin to space it out from the images */
+        background: linear-gradient(to right, #351963 0%, #0D031B 50%);
+    }
+
+    .btn_demo {
+        width: 200px;
+        height: 50px;
+        border-radius: 21px;
+        margin: 20px auto; /* Center the button */
+        display: block; /* Make the button a block element to center it */
+        background-color: #351963;
+        color: white;
+        border: none;
+        font-family: sans-serif;
+    }
+
+    .btn_demo:hover {
+        cursor: pointer;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    td {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .footer {
+        color: white;
+        font-family: sans-serif;
+        background: linear-gradient(to right, #351963 0%, #0D031B 50%);
+    }
+
+    .logo {
+        width: 100%;
+        height: auto; /* Keep the aspect ratio for the logo */
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://infivent.io" target="_blank">
+            <img class="imagpe" src="imagpe/f1.png" alt="Hero Image">
+            <img class="imagpe" src="imagpe/f2.png" alt="Features Image">
+            <img class="imagpe" src="imagpe/f3.png" alt="Mic Image">
+        </a>
+
+        <div class="demo">
+            <a href="https://calendly.com/wasudev/infivent-demo?month=2023-08" target="_blank">
+                <button class="btn_demo">Request Demo</button>
+            </a>
+        </div>
+
+        <div class="footer">
+            <table>
+                <tr>
+                    <td>
+                        <img class="logo" src="proco.png" alt="Company Logo" width="100" height="100">
+                    </td>
+
+                    <td>
+                        <h3>Contact Us</h3>
+                        <p>Phone: +91 9284384585</p>
+                        <p>Email: wasudev@procohat.com</p>
+                    </td>
+
+                    <td>
+                        <h3>Follow Us</h3>
+                        <a href="#"><img src="instagram.png" alt="Social Media 1" width="30" height="30"></a>
+                        <a href="#"><img src="facebook.png" alt="Social Media 2" width="30" height="30"></a>
+                        <a href="#"><img src="twitter.jpg" alt="Social Media 3" width="30" height="30"></a>
+                        <a href="#"><img src="linkedin.png" alt="Social Media 4" width="30" height="30"></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
